@@ -1,0 +1,48 @@
+*, *::before, *::after {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.projects-image {
+    width: 99vw;
+    height: 90vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    background: hsl(100, 50%, 50%);
+    margin: 0;
+    padding: 0.5em;
+    position: sticky;
+    top: 0;
+}
+
+h1 {
+    font-size: x-large;
+    margin: 10px;
+}
+
+.project {
+    border: 2px solid black;
+    margin: 10px;
+}
+
+iframe {
+    height: 600px;
+    width: 1000px;
+    margin: 10px;
+}
+
+
